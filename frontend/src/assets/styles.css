@@ -10,3 +10,17 @@ body {
     color: #6c757d;
     font-weight: 300;
   }
+  .table th{
+    color: #6c757d;
+    font-weight: 400;
+  }
+  .table td{
+    font-weight: 300;
+    color: #6c757d;
+  }
+  .pointer{
+    cursor: pointer !important;
+        margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }

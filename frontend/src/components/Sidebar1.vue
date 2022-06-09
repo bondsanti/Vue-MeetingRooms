@@ -11,7 +11,7 @@
           ><b-icon icon="chevron-right"></b-icon>
           ข้อมูลการจอง</b-list-group-item
         >
-        <b-list-group-item href="#"
+        <b-list-group-item href="/equip"
           ><b-icon icon="chevron-right"></b-icon>
           ข้อมูลอุปกรณ์ห้องประชุม</b-list-group-item
         >
