@@ -4,6 +4,8 @@ import Axios  from 'axios'
 import LoginView from '../views/LoginView.vue'
 import RegisterView from '../views/RegisterView.vue'
 import MainView from '../views/MainView.vue'
+import Equip from '../views/equipment/index.vue'
+import EquipForm from '../views/equipment/form.vue'
 
 Vue.use(VueRouter)
 
@@ -24,6 +26,19 @@ const routes = [
     name: 'main',
     meta:{auth:true},
     component: MainView
+  },
+  //equipment
+  {
+    path: '/equip',
+    name: 'equip',
+    meta:{auth:true},
+    component: Equip
+  },
+  {
+    path: '/equip-form',
+    name: 'equip-form',
+    meta:{auth:true},
+    component: EquipForm
   }
 ]
 
